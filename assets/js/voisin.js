@@ -2,7 +2,7 @@ $(function()
 {
   // Header Tooltip
   $('.nav li').tooltip();
-  $('.nav li').click(function(e)
+  $('.nav li.unclickable').click(function(e)
   {
     e.preventDefault();
     $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
@@ -12,7 +12,7 @@ $(function()
   {
     $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
   });
-  
+
   // Next slide carousel
   $('#emailing a.next-tree').click(function (e)
   {
