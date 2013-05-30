@@ -151,7 +151,7 @@ body {
     z-index: 20; }
     /* line 125, ../sass/perso.sass */
     #agences .adresse-agence section {
-      display: none; }
+      display: block; }
       /* line 128, ../sass/perso.sass */
       #agences .adresse-agence section header {
         background: url('../img/header-adresse.png');
