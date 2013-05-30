@@ -255,3 +255,7 @@ body {
 /* line 225, ../sass/perso.sass */
 .tooltip {
   top: -45px !important; }
+
+.description {
+    display: none!important;
+}
