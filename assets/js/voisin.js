@@ -25,7 +25,7 @@ $(function()
   //   e.preventDefault();
   //   $("#myCarousel2").carousel('next');
   // });
-    $('.carousel').carousel({interval: 2000});
+    $('.carousel').carousel();
 
 
 
