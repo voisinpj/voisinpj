@@ -5,7 +5,11 @@ $(function()
   $('.nav li.unclickable').click(function(e)
   {
     e.preventDefault();
-    $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
+      if ($(this).data("section") == "#metier")
+	  $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -120});
+      else
+	  $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
+      
   });
 
   $('a.cartouche').click(function()
