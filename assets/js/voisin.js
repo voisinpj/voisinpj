@@ -14,17 +14,18 @@ $(function()
   });
 
   // Next slide carousel
-  $('#emailing a.next-tree').click(function (e)
-  {
-    e.preventDefault();
-    $("#myCarousel").carousel('next');
-  });
+  // $('#emailing a.next-tree').click(function (e)
+  // {
+  //   e.preventDefault();
+  //   $("#myCarousel").carousel('next');
+  // });
 
-  $('#metier a.cartouche').click(function (e)
-  {
-    e.preventDefault();
-    $("#myCarousel2").carousel('next');
-  });
+  // $('#metier a.cartouche').click(function (e)
+  // {
+  //   e.preventDefault();
+  //   $("#myCarousel2").carousel('next');
+  // });
+    $('.carousel').carousel({interval: 2000});
 
 
 
