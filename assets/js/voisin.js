@@ -12,7 +12,7 @@ $(function()
       
   });
 
-  $('a.cartouche').click(function(e)
+  $('a.cartouche').not(".linkable").click(function(e)
   {
     e.preventDefault();
     $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
