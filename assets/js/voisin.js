@@ -18,19 +18,20 @@ $(function()
     $('body').scrollTo($(this).data("section"), {duration:'slow', offset: -160});
   });
 
-  // Next slide carousel
-  // $('#emailing a.next-tree').click(function (e)
-  // {
-  //   e.preventDefault();
-  //   $("#myCarousel").carousel('next');
-  // });
+ //  Next slide carousel
+  $('#emailing a.next-tree').click(function (e)
+  {
+    e.preventDefault();
+    $("#myCarousel").carousel('next');
+  });
 
-  // $('#metier a.cartouche').click(function (e)
-  // {
-  //   e.preventDefault();
-  //   $("#myCarousel2").carousel('next');
-  // });
-    $('.carousel').carousel();
+  $('#metier a.cartouche').click(function (e)
+  {
+    e.preventDefault();
+    $("#myCarousel2").carousel('next');
+  });
+  
+   $('.carousel').carousel("pause");
 
 
 

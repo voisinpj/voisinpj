@@ -93,13 +93,13 @@ body {
     margin-bottom: 0 !important; }
   /* line 69, ../sass/perso.sass */
   #emailing a.next-tree {
-    width: 190px;
+    width: 105px;
     height: 53px;
     display: block;
     position: absolute;
     z-index: 20;
     left: 560px;
-    top: 290px; }
+    top: 353px; }
 
 /* line 78, ../sass/perso.sass */
 #metier {
