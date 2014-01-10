@@ -44,8 +44,6 @@ $(function()
   });
 
   // jSnow
-  $(function() {
-    $().jSnow();
-  });
+  $().jSnow();
 
 });
