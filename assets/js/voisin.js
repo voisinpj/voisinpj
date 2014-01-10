@@ -42,4 +42,10 @@ $(function()
     $('<div class="adresse-agence" style="top: 150px; left: 150px"><a class="point-agence"></a><section><header></header><p></p></section></div>')
       .append("#agences");
   });
+
+  // jSnow
+  $(function() {
+    $().jSnow();
+  });
+
 });
