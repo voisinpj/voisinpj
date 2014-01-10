@@ -43,7 +43,4 @@ $(function()
       .append("#agences");
   });
 
-  // jSnow
-  $().jSnow();
-
 });
